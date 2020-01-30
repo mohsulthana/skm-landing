@@ -439,7 +439,7 @@
               di Sumatera Selatan.
             </h2>
             <div style="margin-top: 2rem;">
-              <button disabled class="button is-light has-shadow is-outlined">
+              <button class="button is-light has-shadow is-outlined" id="btn-customer">
                 Daftar Customer
               </button>
             </div>
@@ -449,7 +449,8 @@
     </div>
   </section>
 
-  <div class="modal animated fadeIn">
+  <!-- BEGIN LIST ARMADA -->
+  <div class="modal animated fadeIn" id="modal-armada">
     <div class="modal-background"></div>
     <div class="modal-content">
       <div class="box">
@@ -500,8 +501,47 @@
     </div>
     <button class="modal-close is-large" aria-label="close"></button>
   </div>
-
+  <!-- END LIST ARMADA -->
   
+  <!-- BEGIN LIST CUSTOMER -->
+  <div class="modal animated fadeIn" id="modal-customer">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <div class="box">
+        <div class="table-container">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Customer</th>
+                <th>Consumer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php  
+              $arr = ["PT. Pertamina","PT. Petro Andalan  Nusantara","PT. Pertamina Patra Niaga","PT. PETRONAS Niaga Indonesia","PT. United ShippingIndonesia","PT. Haniven Mulia  Sarana","PT. Putra Laskar Merdeka","PT. Sebangun Bumi Andalas  Wood Industries","PT. Bumi Andalas Permai","PT. Bumi Mekar Hijau","PT. Mutiara  Cemerlang Prima","PT. Transpacific  Agro Industry"];
+
+              $arr2 = ["PT. Sebangun Bumi Andalas Wood Industries","PT. Bumi Andalas Permai","PT. Bumi Mekar Hijau","PT. Mutiara Cemerlang Prima","PT. OKI Pulp & Paper Mills","PT.Bumi Khatulistiwa Mandiri","PT. Indo Straits Tbk","PT. Raja Palma","PT. Harapan Nusa Mandiri","PT. Transpacific Agro Industry","PT. Tata Kurnia Pratama","-"];
+              
+                foreach ($arr as $key => $value) {
+                  echo "
+                    <tr>
+                      <td>".($key+1)."</td>
+                      <td>".$arr[$key]."</td>
+                      <td>".$arr2[$key]."</td>
+                    </tr>
+                  ";
+                }
+              ?>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
+  <!-- END LIST CUSTOMER -->
 
   <!--  contact -->
   <section class="hero is-white is-medium contact-has-bg-image" data-aos="zoom-in-up">
@@ -538,11 +578,11 @@
     slidesToShow: 4,
     infinite: true
   });
-  </script>
-  <script>
+
+  // BEGIN MODAL ARMADA
   document.querySelector('#armada').addEventListener('click', function(event) {
     event.preventDefault();
-    var modal = document.querySelector('.modal'); // assuming you have only 1
+    var modal = document.querySelector('#modal-armada'); // assuming you have only 1
     var html = document.querySelector('html');
     modal.classList.add('is-active');
     html.classList.add('is-clipped');
@@ -553,9 +593,9 @@
       html.classList.remove('is-clipped');
     });
   });
-  </script>
+  // END MODAL ARMADA
 
-  <script>
+  // BEGIN MODAL ARMADA MOTOR SUNGAI
   document.querySelector('#armada-motor-sungai').addEventListener('click', function(event) {
     event.preventDefault();
     var modal = document.querySelector('.modal'); // assuming you have only 1
@@ -569,24 +609,24 @@
       html.classList.remove('is-clipped');
     });
   });
-  </script>
+  // END MODAL ARMADA MOTOR SUNGAI
 
-  <script>
-  // document.querySelector('#customer').addEventListener('click', function(event) {
-  //   event.preventDefault();
-  //   var modal = document.querySelector('.modal'); // assuming you have only 1
-  //   var html = document.querySelector('html');
-  //   modal.classList.add('is-active');
-  //   html.classList.add('is-clipped');
+  // BEGIN MODAL CUSTOMER
+  document.querySelector('#btn-customer').addEventListener('click', function(event) {
+    event.preventDefault();
+    var modal = document.querySelector('#modal-customer'); // assuming you have only 1
+    var html = document.querySelector('html');
+    modal.classList.add('is-active');
+    html.classList.add('is-clipped');
 
-  //   modal.querySelector('.modal-background').addEventListener('click', function(e) {
-  //     e.preventDefault();
-  //     modal.classList.remove('is-active');
-  //     html.classList.remove('is-clipped');
-  //   });
-  // });
-  </script>
-  <script>
+    modal.querySelector('.modal-background').addEventListener('click', function(e) {
+      e.preventDefault();
+      modal.classList.remove('is-active');
+      html.classList.remove('is-clipped');
+    });
+  });
+  // END MODAL CUSTOMER
+
   $('#armada').click(function() {
     $('.modal').addClass('is-active');
   });
@@ -595,5 +635,4 @@
   })
   </script>
 </body>
-
 </html>
