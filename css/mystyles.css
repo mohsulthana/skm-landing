@@ -4468,7 +4468,7 @@ a.list-item {
     min-height: 3.25rem;
     width: 100%; }
   .navbar.has-shadow {
-    box-shadow: 0 2px 0 0 whitesmoke; }
+    box-shadow: 2px 2px 16px 0 rgba(0, 0, 0, 0.25); }
   .navbar.is-fixed-bottom, .navbar.is-fixed-top {
     left: 0;
     position: fixed;
@@ -4477,7 +4477,7 @@ a.list-item {
   .navbar.is-fixed-bottom {
     bottom: 0; }
     .navbar.is-fixed-bottom.has-shadow {
-      box-shadow: 0 -2px 0 0 whitesmoke; }
+      box-shadow: 0 -2px 0 0 rgba(0, 0, 0, 0.25); }
   .navbar.is-fixed-top {
     top: 0; }
 
@@ -4664,7 +4664,7 @@ a.navbar-item,
   .navbar {
     min-height: 3.25rem; }
     .navbar.is-spaced {
-      padding: 1rem 2rem; }
+      padding: 0.2rem 1rem; }
       .navbar.is-spaced .navbar-start,
       .navbar.is-spaced .navbar-end {
         align-items: center; }
@@ -4783,10 +4783,10 @@ a.navbar-item,
     padding-bottom: 3.25rem; }
   html.has-spaced-navbar-fixed-top,
   body.has-spaced-navbar-fixed-top {
-    padding-top: 5.25rem; }
+    padding-top: 3.65rem; }
   html.has-spaced-navbar-fixed-bottom,
   body.has-spaced-navbar-fixed-bottom {
-    padding-bottom: 5.25rem; }
+    padding-bottom: 3.65rem; }
   a.navbar-item.is-active,
   .navbar-link.is-active {
     color: #0a0a0a; }

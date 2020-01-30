@@ -98,7 +98,7 @@
           dibidang jasa, perdagangan dan Transportir di Sumatera Selatan.</p>
       </div>
     </div>
-    <a href="assets/legal.pdf" download="legal.pdf"><i class="fas fa-file-pdf"></i> Check our legality</a>
+    <a href="assets/legal.pdf" class="subtitle has-text-danger" download="legal.pdf"><i class="fas fa-file-pdf"></i> Check our legality</a>
   </section>
 
   <section class="hero is-medium is-primary">
@@ -582,7 +582,7 @@
         <p>sederhana.karya.musi@gmail.com</p><br>
         <p>Perum. Taman Meteor Indah 2, Blok A No. 14-15, RT009/RW004, </p>
         <p>JL. Prof. Dr. Soepomo, Kel. Pahlawan, Kec.Kemuning, Palembang. (30128)</p>
-        <hr>
+        <a href="mailto:sederhana.karya.musi@gmail.com" class="button is-primary" style="margin-top: 1rem;">Email us</a>
       </div>
     </div>
   </section>
@@ -590,7 +590,7 @@
   <footer class="footer is-primary">
     <div class="content has-text-centered">
       <p>
-        Copyright &copy; 2020 - PT. Sederhana Karya Musi
+        Copyright &copy; 2020 - PT. Sederhana Karya Musi. Site design by Mohammad Sulthan.
       </p>
     </div>
   </footer>

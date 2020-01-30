@@ -12,6 +12,12 @@ $secondary: #e65100;
 // border-radius
 $control-radius: 2px !default;
 
+// navbar
+$navbar-padding-horizontal: 1rem;
+$navbar-padding-vertical: .2rem;
+$navbar-box-shadow-size: 2px 2px 16px 0;
+$navbar-box-shadow-color: rgba(0,0,0,.25);
+
 // Update Bulma's global variables
 $family-sans-serif: 'Raleway', sans-serif;
 $grey-dark: $brown;
