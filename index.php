@@ -580,6 +580,10 @@
         <h2 class="title">
           PT. Sejahtera Karya Musi
         </h2>
+        <p><strong>Hotline. 0711-353-252</strong></p>
+        <p>sederhana.karya.musi@gmail.com</p><br>
+        <p>Perum. Taman Meteor Indah 2, Blok A No. 14-15, RT009/RW004, </p>
+        <p>JL. Prof. Dr. Soepomo, Kel. Pahlawan, Kec.Kemuning, Palembang. (30128)</p>
         <hr>
       </div>
     </div>
