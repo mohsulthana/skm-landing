@@ -1,0 +1,29 @@
+{
+  "name": "skm",
+  "version": "1.0.0",
+  "description": "PT. Sederhana Karya Musi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/style.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadsultana/skm-landing-page.git"
+  },
+  "keywords": [
+    "skm"
+  ],
+  "author": "Mohammad Sulthan, M. Irfan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadsultana/skm-landing-page/issues"
+  },
+  "homepage": "https://github.com/muhammadsultana/skm-landing-page#readme",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.1"
+  }
+}
