@@ -11,9 +11,7 @@
   <link rel="shortcut icon" type="image/png" href="logo-SKM.PNG" />
   <link rel="shortcut icon" type="image/png" href="logo-SKM.PNG" />
   <link rel="stylesheet" href="css/mystyles.css">
-  <script defer src="assets/fa531.js"></script>
   <link href="assets/aos.css" rel="stylesheet">
-
 </head>
 
 <style>
@@ -423,11 +421,11 @@
     </div>
   </section>
 
-  <section class="hero is-medium is-info">
+  <section class="hero is-medium is-primary">
     <div class="hero-body">
       <div class="container">
         <div class="columns has-text-centered">
-          <div class="column has-text-centered" data-aos="fade-right">
+          <div class="column has-text-centered" style="border-right: .7px solid #e7eaec;" data-aos="fade-right">
             <h2 class="title">
               Armada
             </h2>
@@ -594,6 +592,8 @@
   </footer>
   <script src="assets/bulma_carousel.js"></script>
   <script src="assets/aos.js"></script>
+  <script src="assets/fa531.js"></script>
+  <script src="assets/jquery341.js"></script>
   <script>
   AOS.init();
   bulmaCarousel.attach('#carousel-demo', {
