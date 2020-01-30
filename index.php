@@ -103,7 +103,7 @@
 
   <section class="hero is-medium is-primary">
     <div class="hero-body">
-      <div class="container">
+      <div class="container is-italic">
         <div class="columns has-text-centered">
           <div class="column has-text-center" data-aos="fade-right">
             <h2 class="title">
@@ -165,7 +165,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <a class="button is-primary is-medium has-shadow" id="pangkalan" style="width: 100%">
+                  <a class="button is-primary has-shadow" id="pangkalan" style="width: 100%">
                     Penawaran Kami
                   </a>
                 </div>
@@ -186,7 +186,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <a class="button is-primary is-medium has-shadow" style="width: 100%">
+                  <a class="button is-primary has-shadow" style="width: 100%">
                     Penawaran Kami
                   </a>
                 </div>
@@ -207,7 +207,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <a class="button is-primary is-medium has-shadow" style="width: 100%">
+                  <a class="button is-primary has-shadow" style="width: 100%">
                     Penawaran Kami
                   </a>
                 </div>

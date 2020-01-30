@@ -9,6 +9,9 @@ $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 $secondary: #e65100;
 
+// border-radius
+$control-radius: 2px !default;
+
 // Update Bulma's global variables
 $family-sans-serif: 'Raleway', sans-serif;
 $grey-dark: $brown;
@@ -17,5 +20,7 @@ $primary: $teal;
 $link: $pink;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
+
+$button-padding-horizontal: 1.5em !default;
 
 @import "../node_modules/bulma/bulma.sass";
