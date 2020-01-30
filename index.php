@@ -136,7 +136,7 @@
     </div>
   </section>
 
-  <section class="section is-medium" data-aos="fade-up">
+  <section class="section" data-aos="fade-up">
     <div class="hero-head">
       <div class="container">
         <h1 class="title has-text-primary has-text-centered" id="service">
@@ -159,16 +159,17 @@
                 </figure>
               </div>
               <div class="card-content">
-                <div class="media">
+                <p class="title has-text-centered is-4">Bunkering</p>
+                <!-- <div class="media">
                   <div class="media-content">
-                    <p class="title has-text-centered is-4">Pangkalan PT. KSM</p>
+                    
                   </div>
-                </div>
-                <div class="content">
+                </div> -->
+                <!-- <div class="content">
                   <a class="button is-primary has-shadow" id="pangkalan" style="width: 100%">
                     Penawaran Kami
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -180,16 +181,12 @@
                 </figure>
               </div>
               <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title has-text-centered is-4">Dermaga TBBM</p>
-                  </div>
-                </div>
-                <div class="content">
+                <p class="title has-text-centered is-4">Oil Transportation</p>
+                <!-- <div class="content">
                   <a class="button is-primary has-shadow" style="width: 100%">
                     Penawaran Kami
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -201,16 +198,7 @@
                 </figure>
               </div>
               <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title has-text-centered is-4">Dermaga Pertamina</p>
-                  </div>
-                </div>
-                <div class="content">
-                  <a class="button is-primary has-shadow" style="width: 100%">
-                    Penawaran Kami
-                  </a>
-                </div>
+                <p class="title has-text-centered is-4">Ship Services</p>
               </div>
             </div>
           </div>
