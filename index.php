@@ -461,54 +461,6 @@
     </div>
   </section>
 
-  <script>
-  document.querySelector('#armada').addEventListener('click', function(event) {
-    event.preventDefault();
-    var modal = document.querySelector('.modal'); // assuming you have only 1
-    var html = document.querySelector('html');
-    modal.classList.add('is-active');
-    html.classList.add('is-clipped');
-
-    modal.querySelector('.modal-background').addEventListener('click', function(e) {
-      e.preventDefault();
-      modal.classList.remove('is-active');
-      html.classList.remove('is-clipped');
-    });
-  });
-  </script>
-
-  <script>
-  document.querySelector('#armada-motor-sungai').addEventListener('click', function(event) {
-    event.preventDefault();
-    var modal = document.querySelector('.modal'); // assuming you have only 1
-    var html = document.querySelector('html');
-    modal.classList.add('is-active');
-    html.classList.add('is-clipped');
-
-    modal.querySelector('.modal-background').addEventListener('click', function(e) {
-      e.preventDefault();
-      modal.classList.remove('is-active');
-      html.classList.remove('is-clipped');
-    });
-  });
-  </script>
-
-  <script>
-  document.querySelector('#customer').addEventListener('click', function(event) {
-    event.preventDefault();
-    var modal = document.querySelector('.modal'); // assuming you have only 1
-    var html = document.querySelector('html');
-    modal.classList.add('is-active');
-    html.classList.add('is-clipped');
-
-    modal.querySelector('.modal-background').addEventListener('click', function(e) {
-      e.preventDefault();
-      modal.classList.remove('is-active');
-      html.classList.remove('is-clipped');
-    });
-  });
-  </script>
-
   <div class="modal animated fadeIn">
     <div class="modal-background"></div>
     <div class="modal-content">
@@ -561,14 +513,7 @@
     <button class="modal-close is-large" aria-label="close"></button>
   </div>
 
-  <script>
-  $('#armada').click(function() {
-    $('.modal').addClass('is-active');
-  });
-  $('.modal-close').click(function() {
-    $('.modal').removeClass("is-active");
-  })
-  </script>
+  
 
   <!--  contact -->
   <section class="hero is-white is-medium contact-has-bg-image" data-aos="zoom-in-up">
@@ -605,6 +550,61 @@
     slidesToShow: 4,
     infinite: true
   });
+  </script>
+  <script>
+  document.querySelector('#armada').addEventListener('click', function(event) {
+    event.preventDefault();
+    var modal = document.querySelector('.modal'); // assuming you have only 1
+    var html = document.querySelector('html');
+    modal.classList.add('is-active');
+    html.classList.add('is-clipped');
+
+    modal.querySelector('.modal-background').addEventListener('click', function(e) {
+      e.preventDefault();
+      modal.classList.remove('is-active');
+      html.classList.remove('is-clipped');
+    });
+  });
+  </script>
+
+  <script>
+  document.querySelector('#armada-motor-sungai').addEventListener('click', function(event) {
+    event.preventDefault();
+    var modal = document.querySelector('.modal'); // assuming you have only 1
+    var html = document.querySelector('html');
+    modal.classList.add('is-active');
+    html.classList.add('is-clipped');
+
+    modal.querySelector('.modal-background').addEventListener('click', function(e) {
+      e.preventDefault();
+      modal.classList.remove('is-active');
+      html.classList.remove('is-clipped');
+    });
+  });
+  </script>
+
+  <script>
+  // document.querySelector('#customer').addEventListener('click', function(event) {
+  //   event.preventDefault();
+  //   var modal = document.querySelector('.modal'); // assuming you have only 1
+  //   var html = document.querySelector('html');
+  //   modal.classList.add('is-active');
+  //   html.classList.add('is-clipped');
+
+  //   modal.querySelector('.modal-background').addEventListener('click', function(e) {
+  //     e.preventDefault();
+  //     modal.classList.remove('is-active');
+  //     html.classList.remove('is-clipped');
+  //   });
+  // });
+  </script>
+  <script>
+  $('#armada').click(function() {
+    $('.modal').addClass('is-active');
+  });
+  $('.modal-close').click(function() {
+    $('.modal').removeClass("is-active");
+  })
   </script>
 </body>
 
