@@ -6544,7 +6544,7 @@ label.panel-block {
 
 
 .hero-has-bg-image {
-  background-image: url('../ship.jpg');
+  background-image: url('../ship-0.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -6578,8 +6578,8 @@ label.panel-block {
   max-height: 400px;
 }
 
-.contact-has-bg-image {
+/*.contact-has-bg-image {
   background-image: url('../hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-}
+}*/

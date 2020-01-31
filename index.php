@@ -27,7 +27,7 @@
 <body>
   <nav class="navbar is-spaced is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="index.html">
+      <a class="navbar-item" href="">
         <img src="logo-SKM.PNG" width="55" height="55">
         <span style="margin-left: 10px; font-weight: 600">PT. SEDERHANA KARYA MUSI</span>
       </a>
@@ -45,22 +45,30 @@
         <a class="navbar-item" href="#about">
           About
         </a>
+        <a class="navbar-item" href="#visimisi">
+          Visi & Misi
+        </a>
         <a class="navbar-item" href="#service">
           Services
+        </a>
+        <a class="navbar-item" href="#goal">
+          Goals
         </a>
         <a class="navbar-item" href="#partner">
           Partnership
         </a>
-        <a class="navbar-item" href="#contact">
+        <a class="navbar-item" href="#contact" style="border-right: 1px solid #e7eaec;">
           Contact
         </a>
-        <div class="navbar-item">
+        <a class="navbar-item" >English</a>
+        <a class="navbar-item">Indonesia</a>
+        <!-- <div class="navbar-item">
           <div class="buttons">
             <a class="button is-primary">
               About Us
             </a>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </nav>
@@ -75,9 +83,9 @@
           Transportir BBM #1 berbasis di Sumatera Selatan
         </h2>
         <h2 class="subtitle">
-          <a class="button is-primary is-medium has-shadow">
+          <!-- <a class="button is-primary is-medium has-shadow">
             Penawaran Kami
-          </a>
+          </a> -->
         </h2>
         <p id="about"></p>
       </div>
@@ -100,6 +108,7 @@
       </div>
     </div>
     <a href="assets/legal.pdf" class="subtitle has-text-danger" download="legal.pdf"><i class="fas fa-file-pdf"></i> Check our legality</a>
+    <p id="visimisi"></p>
   </section>
 
   <section class="hero is-medium is-primary">
@@ -239,6 +248,7 @@
           </div>
           <div class="column showcase-has-image-3"></div>
         </div>
+        <p id="goal"></p>
       </div>
     </div>
   </section>
@@ -251,7 +261,6 @@
         </h1>
       </div>
     </div>
-    <p id="partner"></p>
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="subtitle">
@@ -261,68 +270,18 @@
           memperbesar pangsa pasar dengan menambah
           dan peremajaan armada untuk pengangkutan
           Bahan Bakar Minyak (BBM).</h1>
-        <button class="button is-primary is-outlined">Lihat lebih banyak</button>
+        <!-- <button class="button is-primary is-outlined">Lihat lebih banyak</button> -->
       </div>
     </div>
     <div class="hero-footer">
 
     </div>
   </section>
-  <section class="section is-light has-carousel" style="background-color: #f8f8f8;">
-    <div class="hero-head" data-aos="zoom-in-up">
-      <div class="container has-text-centered">
-        <h1 class="title has-text-primary">
-          Daftar Mitra
-        </h1>
-        <h1 class="subtitle">
-          Kami sedang menjalani kemitraan dan memberikan pelayanan terbaik dengan perusahaan tingkat nasional
-        </h1>
-      </div>
-    </div>
-    <div class="hero-body" data-aos="zoom-in-up">
-      <div class="container has-text-centered">
-        <div class="row">
-          <div id="carousel-demo" class="carousel">
-            <div class="item-1">
-              <figure class="image is-128x128">
-                <img src="pertamina.png">
-              </figure>
-            </div>
-            <div class="item-2">
-              <figure class="image is-128x128">
-                <img src="pertamina.png">
-              </figure>
-            </div>
-            <div class="item-3">
-              <figure class="image is-128x128">
-                <img src="pertamina.png">
-              </figure>
-            </div>
-            <div class="item-4">
-              <figure class="image is-128x128">
-                <img src="pertamina.png">
-              </figure>
-            </div>
-            <div class="item-5">
-              <figure class="image is-128x128">
-                <img src="pertamina.png">
-              </figure>
-            </div>
-            <div class="item-6">
-              <figure class="image is-128x128">
-                <img src="pertamina.png">
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <!-- BEGIN GALLERY -->
   <section class="section is-light has-carousel" data-aos="zoom-in-up">
     <div class="hero-head">
       <div class="container has-text-centered">
-        <h1 class="title has-text-primary" id="partner">
+        <h1 class="title has-text-primary">
           Gallery
         </h1>
         <h1 class="subtitle">
@@ -408,6 +367,58 @@
           </div>
         </div>
       </div>
+      <p id="partner"></p>
+    </div>
+  </section>
+<!-- END GALLERY -->
+  <section class="section is-light has-carousel" style="background-color: #f8f8f8;">
+    <div class="hero-head" data-aos="zoom-in-up">
+      <div class="container has-text-centered">
+        <h1 class="title has-text-primary">
+          Daftar Mitra
+        </h1>
+        <h1 class="subtitle">
+          Kami sedang menjalani kemitraan dan memberikan pelayanan terbaik dengan perusahaan tingkat nasional
+        </h1>
+      </div>
+    </div>
+    <div class="hero-body" data-aos="zoom-in-up">
+      <div class="container has-text-centered">
+        <div class="row">
+          <div id="carousel-demo" class="carousel">
+            <div class="item-1">
+              <figure class="image is-128x128">
+                <img src="pertamina.png">
+              </figure>
+            </div>
+            <div class="item-2">
+              <figure class="image is-128x128">
+                <img src="pertamina.png">
+              </figure>
+            </div>
+            <div class="item-3">
+              <figure class="image is-128x128">
+                <img src="pertamina.png">
+              </figure>
+            </div>
+            <div class="item-4">
+              <figure class="image is-128x128">
+                <img src="pertamina.png">
+              </figure>
+            </div>
+            <div class="item-5">
+              <figure class="image is-128x128">
+                <img src="pertamina.png">
+              </figure>
+            </div>
+            <div class="item-6">
+              <figure class="image is-128x128">
+                <img src="pertamina.png">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -420,15 +431,16 @@
               Armada
             </h2>
             <h2 class="is-size-6">
+              Armada kami terdiri dari kapal tongkang, kapal bermotor, dan kapal pandu.
               Menjadi perusahaan jasa transportir BBM Industri yang profesional, berkualitas, terdepan, dan terpercaya
               di Sumatera Selatan.
             </h2>
             <div style="margin-top: 2rem;">
-              <a class="button is-light has-shadow is-outlined" id="armada">
-                Daftar Armada
+              <a class="button is-light has-shadow is-outlined" id="btn-armada">
+                Daftar Armada I
               </a>
-              <a class="button is-light has-shadow is-outlined" d id="armada-motor-sungai">
-                Daftar Armada Motor Sungai
+              <a class="button is-light has-shadow is-outlined" d id="btn-armada-ii">
+                Daftar Armada II
               </a>
             </div>
           </div>
@@ -452,6 +464,32 @@
     <p id="contact"></p>
   </section>
 
+  
+  <!--  contact -->
+  <section class="hero is-white is-medium contact-has-bg-image" data-aos="zoom-in-up">
+    <div class="hero-body has-text-centered">
+      <div class="container">
+        <img src="logo-SKM.PNG" alt="Placeholder image" style="object-fit: cover;" height="60" width="60">
+        <h2 class="title">
+          PT. Sejahtera Karya Musi
+        </h2>
+        <p><strong>Hotline. 0711-353-252</strong></p>
+        <p>sederhana.karya.musi@gmail.com</p><br>
+        <p>Perum. Taman Meteor Indah 2, Blok A No. 14-15, RT009/RW004, </p>
+        <p>JL. Prof. Dr. Soepomo, Kel. Pahlawan, Kec.Kemuning, Palembang. (30128)</p>
+        <a href="mailto:sederhana.karya.musi@gmail.com" class="button is-primary" style="margin-top: 1rem;">Email us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer is-primary">
+    <div class="content has-text-centered">
+      <p>
+        Copyright &copy; 2020 - PT. Sederhana Karya Musi. Site design by Mohammad Sulthan.
+      </p>
+    </div>
+  </footer>
+
   <!-- BEGIN LIST ARMADA -->
   <div class="modal animated fadeIn" id="modal-armada">
     <div class="modal-background"></div>
@@ -473,15 +511,16 @@
             <tbody>
               <?php  
                 $arr = 
-          [["Sederhana Citra Gemilang 01","Tongkang Bermotor","2005","Solar/Premium","180 KL","57 GT"],
-            ["Sederhana Citra Gemilang 02","Tongkang Bermotor","2005","Solar/Premium","110 KL","30 GT"],
-            ["Sederhana Citra Gemilang 03","Tongkang Bermotor","2014","Solar/Premium","300 KL","151 GT"],
-            ["Matahari","Tongkang","2008","Solar/Premium","200 KL","55 GT"],
+          [["Sederhana Citra Gemilang 01","kapal bermotor","2005","Solar/Premium","180 KL","57 GT"],
+            ["Sederhana Citra Gemilang 02","kapal bermotor","2005","Solar/Premium","110 KL","30 GT"],
+            ["Sederhana Citra Gemilang 03","kapal bermotor","2014","Solar/Premium","300 KL","151 GT"],
             ["Matahari 02","Tongkang","2009","Solar/Premium","400 KL","120 GT"],
             ["Matahari 03","Tongkang","2010","Solar/Premium","200 KL","60 GT"],
             ["Matahari 04","Tongkang","2011","Solar/Premium","230 KL","68 GT"],
             ["Matahari 05","Tongkang","2015","Solar/Premium","500 KL","187 GT"],
             ["Matahari 06","Tongkang","2015","Solar/Premium","500 KL","187 GT"],
+            ["Matahari 07","Tongkang","2018","Solar/Premium","500 KL","187 GT"],
+            ["Matahari 08","Tongkang","2018","Solar/Premium","500 KL","187 GT"],
             ["Bulan 01","Tongkang","2011","Solar/Premium","230 KL","69 GT"]];
               foreach ($arr as $key => $value) {
                 echo "
@@ -505,7 +544,54 @@
     <button class="modal-close is-large" aria-label="close"></button>
   </div>
   <!-- END LIST ARMADA -->
-  
+  <!-- BEGIN LIST ARMADA II -->
+  <div class="modal animated fadeIn" id="modal-armada-ii">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <div class="box">
+        <div class="table-container">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Nama</th>
+                <th>Jenis</th>
+                <th>Tahun</th>
+                <th>Mesin</th>
+                <th>Kapasitas</th>
+                <th>Ukuran</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php  
+              $arr = [["Sederhana Citra Kencana","Kapal Pandu","2017","NissanRH 10","-","29 GT"],
+              ["Sederhana Citra Kencana 02","Kapal Pandu","2015","NissanRF 10","-","31 GT"],
+              ["Sederhana Citra Kencana 03","Kapal Pandu","2018","Mitsubishi 8","-","31 GT"],
+              ["Jasa Karya 03","Kapal Pandu","2007","Mitsubishi 6 D 22","-","15 GT"],
+              ["Jasa Karya 05","Kapal Pandu","2016","Mitsubishi 6 D 22","-","8 GT"]];
+
+                foreach ($arr as $key => $value) {
+                  echo "
+                    <tr>
+                      <td>".($key+1)."</td>
+                      <td>".$value[0]."</td>
+                      <td>".$value[1]."</td>
+                      <td>".$value[2]."</td>
+                      <td>".$value[3]."</td>
+                      <td>".$value[4]."</td>
+                      <td>".$value[5]."</td>
+                    </tr>
+                  ";
+                }
+              ?>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+  <!-- END LIST ARMADA II -->
   <!-- BEGIN LIST CUSTOMER -->
   <div class="modal animated fadeIn" id="modal-customer">
     <div class="modal-background"></div>
@@ -543,33 +629,8 @@
     </div>
     <button class="modal-close is-large" aria-label="close"></button>
   </div>
-
   <!-- END LIST CUSTOMER -->
 
-  <!--  contact -->
-  <section class="hero is-white is-medium contact-has-bg-image" data-aos="zoom-in-up">
-    <div class="hero-body has-text-centered">
-      <div class="container">
-        <img src="logo-SKM.PNG" alt="Placeholder image" style="object-fit: cover;" height="60" width="60">
-        <h2 class="title">
-          PT. Sejahtera Karya Musi
-        </h2>
-        <p><strong>Hotline. 0711-353-252</strong></p>
-        <p>sederhana.karya.musi@gmail.com</p><br>
-        <p>Perum. Taman Meteor Indah 2, Blok A No. 14-15, RT009/RW004, </p>
-        <p>JL. Prof. Dr. Soepomo, Kel. Pahlawan, Kec.Kemuning, Palembang. (30128)</p>
-        <a href="mailto:sederhana.karya.musi@gmail.com" class="button is-primary" style="margin-top: 1rem;">Email us</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer is-primary">
-    <div class="content has-text-centered">
-      <p>
-        Copyright &copy; 2020 - PT. Sederhana Karya Musi. Site design by Mohammad Sulthan.
-      </p>
-    </div>
-  </footer>
   <script src="assets/bulma_carousel.js"></script>
   <script src="assets/aos.js"></script>
   <script src="assets/fa531.js"></script>
@@ -583,9 +644,10 @@
   });
 
   // BEGIN MODAL ARMADA
-  document.querySelector('#armada').addEventListener('click', function(event) {
+  document.querySelector('#btn-armada').addEventListener('click', function(event) {
     event.preventDefault();
     var modal = document.querySelector('#modal-armada'); // assuming you have only 1
+    console.log(modal);
     var html = document.querySelector('html');
     modal.classList.add('is-active');
     html.classList.add('is-clipped');
@@ -598,10 +660,11 @@
   });
   // END MODAL ARMADA
 
-  // BEGIN MODAL ARMADA MOTOR SUNGAI
-  document.querySelector('#armada-motor-sungai').addEventListener('click', function(event) {
+  // BEGIN MODAL ARMADA
+  document.querySelector('#btn-armada-ii').addEventListener('click', function(event) {
     event.preventDefault();
-    var modal = document.querySelector('.modal'); // assuming you have only 1
+    var modal = document.querySelector('#modal-armada-ii'); // assuming you have only 1
+    console.log(modal);
     var html = document.querySelector('html');
     modal.classList.add('is-active');
     html.classList.add('is-clipped');
@@ -612,7 +675,7 @@
       html.classList.remove('is-clipped');
     });
   });
-  // END MODAL ARMADA MOTOR SUNGAI
+  // END MODAL ARMADA
 
   // BEGIN MODAL CUSTOMER
   document.querySelector('#btn-customer').addEventListener('click', function(event) {
@@ -630,12 +693,12 @@
   });
   // END MODAL CUSTOMER
 
-  $('#armada').click(function() {
-    $('.modal').addClass('is-active');
-  });
-  $('.modal-close').click(function() {
-    $('.modal').removeClass("is-active");
-  })
+  // $('#armada').click(function() {
+  //   $('.modal').addClass('is-active');
+  // });
+  // $('.modal-close').click(function() {
+  //   $('.modal').removeClass("is-active");
+  // })
 
   $(document).on('click', 'a[href^="#"]', function (e) {
       e.preventDefault();
