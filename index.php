@@ -51,8 +51,8 @@
         <a class="navbar-item" href="#partner">
           Partnership
         </a>
-        <a class="navbar-item" href="#info">
-          Information
+        <a class="navbar-item" href="#contact">
+          Contact
         </a>
         <div class="navbar-item">
           <div class="buttons">
@@ -79,6 +79,7 @@
             Penawaran Kami
           </a>
         </h2>
+        <p id="about"></p>
       </div>
     </div>
   </section>
@@ -86,7 +87,7 @@
   <section class="section has-text-centered is-fullheight" data-aos="fade-down">
     <div class="hero-head">
       <div class="container">
-        <h1 id="about" class="title has-text-primary">
+        <h1 class="title has-text-primary">
           Tentang Kami
         </h1>
       </div>
@@ -130,6 +131,7 @@
                   terbaik pada seluruh mitra usaha.</p>
               </div>
             </h2>
+            <p id="service"></p>
           </div>
         </div>
       </div>
@@ -139,7 +141,7 @@
   <section class="section" data-aos="fade-up">
     <div class="hero-head">
       <div class="container">
-        <h1 class="title has-text-primary has-text-centered" id="service">
+        <h1 class="title has-text-primary has-text-centered">
           Layanan Kami
         </h1>
         <p class="subtitle has-text-centered">
@@ -249,6 +251,7 @@
         </h1>
       </div>
     </div>
+    <p id="partner"></p>
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="subtitle">
@@ -265,11 +268,10 @@
 
     </div>
   </section>
-
   <section class="section is-light has-carousel" style="background-color: #f8f8f8;">
     <div class="hero-head" data-aos="zoom-in-up">
       <div class="container has-text-centered">
-        <h1 class="title has-text-primary" id="partner">
+        <h1 class="title has-text-primary">
           Daftar Mitra
         </h1>
         <h1 class="subtitle">
@@ -447,6 +449,7 @@
         </div>
       </div>
     </div>
+    <p id="contact"></p>
   </section>
 
   <!-- BEGIN LIST ARMADA -->
@@ -522,7 +525,7 @@
               $arr = ["PT. Pertamina","PT. Petro Andalan  Nusantara","PT. Pertamina Patra Niaga","PT. PETRONAS Niaga Indonesia","PT. United ShippingIndonesia","PT. Haniven Mulia  Sarana","PT. Putra Laskar Merdeka","PT. Sebangun Bumi Andalas  Wood Industries","PT. Bumi Andalas Permai","PT. Bumi Mekar Hijau","PT. Mutiara  Cemerlang Prima","PT. Transpacific  Agro Industry"];
 
               $arr2 = ["PT. Sebangun Bumi Andalas Wood Industries","PT. Bumi Andalas Permai","PT. Bumi Mekar Hijau","PT. Mutiara Cemerlang Prima","PT. OKI Pulp & Paper Mills","PT.Bumi Khatulistiwa Mandiri","PT. Indo Straits Tbk","PT. Raja Palma","PT. Harapan Nusa Mandiri","PT. Transpacific Agro Industry","PT. Tata Kurnia Pratama","-"];
-              
+
                 foreach ($arr as $key => $value) {
                   echo "
                     <tr>
@@ -633,6 +636,14 @@
   $('.modal-close').click(function() {
     $('.modal').removeClass("is-active");
   })
+
+  $(document).on('click', 'a[href^="#"]', function (e) {
+      e.preventDefault();
+      $('html, body').stop().animate({
+          scrollTop: $($(this).attr('href')).offset().top
+      }, 500, 'linear');
+  });
+
   </script>
 </body>
 </html>
