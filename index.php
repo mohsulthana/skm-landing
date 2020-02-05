@@ -6,11 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PT. Sederhana Karya Musi</title>
-  <link rel="stylesheet" href="assets/bulma_carousel.css">
   <link rel="stylesheet" href="assets/animate.min.css">
   <link rel="shortcut icon" type="image/png" href="logo-SKM.PNG" />
   <link rel="shortcut icon" type="image/png" href="logo-SKM.PNG" />
+  <link rel="stylesheet" href="assets/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="css/mystyles.css">
+  <link rel="stylesheet" href="css/custom.css">
   <link href="assets/aos.css" rel="stylesheet">
 </head>
 
@@ -24,12 +25,13 @@
 }
 </style>
 
-<body>
+<body class="has-navbar-fixed-top">
   <nav class="navbar is-spaced is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="">
         <img src="logo-SKM.PNG" width="55" height="55">
-        <span style="margin-left: 10px; font-weight: 600">PT. SEDERHANA KARYA MUSI</span>
+        <span style="margin-left: 10px; font-weight: 600">PT. SEDERHANA KARYA MUSI | </span>
+        <small style="padding-left: 5px;">Since 2017</small>
       </a>
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -73,13 +75,13 @@
     </div>
   </nav>
 
-  <section class="hero has-text-centered is-primary is-fullheight-with-navbar hero-has-bg-image  animated fadeIn">
+  <section class="hero has-text-centered is-primary is-fullheight-with-navbar hero-has-bg-image animated fadeIn">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title">
+        <h1 class="title has-text-primary has-shadow is-size-2">
           PT. SEDERHANA KARYA MUSI
         </h1>
-        <h2 class="subtitle" style="margin-bottom: 2rem;">
+        <h2 class="subtitle has-text-light has-shadow is-size-4" style="margin: .1rem 0;">
           Transportir BBM #1 berbasis di Sumatera Selatan
         </h2>
         <h2 class="subtitle">
@@ -89,6 +91,10 @@
         </h2>
         <p id="about"></p>
       </div>
+    </div>
+    <div class="hero-foot" style="margin-bottom: 20px">
+      <a href="#about"><img src="images/scroll.png" alt="Logo" style="object-fit: cover;" height="40" width="40"></a>
+      <p class="has-text-weight-bold">SCROLL DOWN TO LEARN MORE</p>
     </div>
   </section>
 
@@ -111,11 +117,11 @@
     <p id="visimisi"></p>
   </section>
 
-  <section class="hero is-medium is-primary">
+  <section class="hero is-primary">
     <div class="hero-body">
       <div class="container is-italic">
         <div class="columns has-text-centered">
-          <div class="column has-text-center" data-aos="fade-right">
+          <div class="column border has-text-center" data-aos="fade-right">
             <h2 class="title">
               Visi
             </h2>
@@ -253,16 +259,12 @@
     </div>
   </section>
 
-  <section class="hero" data-aos="zoom-in-up">
+  <section class="hero is-medium is-primary is-bold" data-aos="zoom-in-up">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title has-text-primary">
+        <h1 class="title has-text-light">
           Orientasi Perusahaan
         </h1>
-      </div>
-    </div>
-    <div class="hero-body">
-      <div class="container has-text-centered">
         <h1 class="subtitle">
           Berusaha kedepan untuk menjadi lebih baik dari
           segi Sumber Daya Manusia (SDM), Sarana dan
@@ -385,33 +387,43 @@
     <div class="hero-body" data-aos="zoom-in-up">
       <div class="container has-text-centered">
         <div class="row">
-          <div id="carousel-demo" class="carousel">
-            <div class="item-1">
+          <div class="owl-carousel">
+            <div>
               <figure class="image is-128x128">
                 <img src="pertamina.png">
               </figure>
             </div>
-            <div class="item-2">
+            <div>
               <figure class="image is-128x128">
                 <img src="pertamina.png">
               </figure>
             </div>
-            <div class="item-3">
+            <div>
               <figure class="image is-128x128">
                 <img src="pertamina.png">
               </figure>
             </div>
-            <div class="item-4">
+            <div>
               <figure class="image is-128x128">
                 <img src="pertamina.png">
               </figure>
             </div>
-            <div class="item-5">
+            <div>
               <figure class="image is-128x128">
                 <img src="pertamina.png">
               </figure>
             </div>
-            <div class="item-6">
+            <div>
+              <figure class="image is-128x128">
+                <img src="pertamina.png">
+              </figure>
+            </div>
+            <div>
+              <figure class="image is-128x128">
+                <img src="pertamina.png">
+              </figure>
+            </div>
+            <div>
               <figure class="image is-128x128">
                 <img src="pertamina.png">
               </figure>
@@ -422,11 +434,24 @@
     </div>
   </section>
 
+  <style>
+    @media (max-width: 1002px) {
+      .border {
+        border-right: 0px !important;
+        border-bottom: 1px solid #d4d4d3;
+      }
+    }
+    .border {
+      border-right: .7px solid #e7eaec;
+    }
+  </style>
+
+
   <section class="hero is-medium is-primary">
     <div class="hero-body">
       <div class="container">
         <div class="columns has-text-centered">
-          <div class="column has-text-centered" style="border-right: .7px solid #e7eaec;" data-aos="fade-right">
+          <div class="column border has-text-centered" data-aos="fade-right">
             <h2 class="title">
               Armada
             </h2>
@@ -466,18 +491,18 @@
 
   
   <!--  contact -->
-  <section class="hero is-white is-medium contact-has-bg-image" data-aos="zoom-in-up">
+  <section class="hero is-white is-medium" data-aos="zoom-in-up">
     <div class="hero-body has-text-centered">
       <div class="container">
-        <img src="logo-SKM.PNG" alt="Placeholder image" style="object-fit: cover;" height="60" width="60">
+        <img src="logo-SKM.PNG" alt="Logo" style="object-fit: cover;" height="60" width="60">
         <h2 class="title">
           PT. Sejahtera Karya Musi
         </h2>
         <p><strong>Hotline. 0711-353-252</strong></p>
         <p>sederhana.karya.musi@gmail.com</p><br>
         <p>Perum. Taman Meteor Indah 2, Blok A No. 14-15, RT009/RW004, </p>
-        <p>JL. Prof. Dr. Soepomo, Kel. Pahlawan, Kec.Kemuning, Palembang. (30128)</p>
-        <a href="mailto:sederhana.karya.musi@gmail.com" class="button is-primary" style="margin-top: 1rem;">Email us</a>
+        <p>JL. Prof. Dr. Soepomo, Kel. Pahlawan, Kec. Kemuning, Palembang. (30128)</p>
+        <a href="mailto:sederhana.karya.musi@gmail.com" class="button is-primary" style="margin-top: 1rem;">Email kami</a>
       </div>
     </div>
   </section>
@@ -631,16 +656,18 @@
   </div>
   <!-- END LIST CUSTOMER -->
 
-  <script src="assets/bulma_carousel.js"></script>
   <script src="assets/aos.js"></script>
   <script src="assets/fa531.js"></script>
   <script src="assets/jquery341.js"></script>
+  <script src="assets/dist/owl.carousel.min.js"></script>
   <script>
-  AOS.init();
-  bulmaCarousel.attach('#carousel-demo', {
-    slidesToScroll: 1,
-    slidesToShow: 4,
-    infinite: true
+
+  $(document).ready(function(){
+    AOS.init();
+    $(".owl-carousel").owlCarousel({
+      nav: true,
+      items: 6
+    });
   });
 
   // BEGIN MODAL ARMADA

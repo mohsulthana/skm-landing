@@ -4563,7 +4563,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #fafafa;
-    color: #FFA500; }
+    color: #FA7C91; }
 
 .navbar-item {
   display: block;
@@ -6540,46 +6540,4 @@ label.panel-block {
 
 .footer {
   background-color: #fafafa;
-  padding: 3rem 1.5rem 6rem; }
-
-
-.hero-has-bg-image {
-  background-image: url('../ship-0.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
-}
-
-.showcase-has-image-1 {
-  background-image: url('../ship-1.jfif');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 400px;
-  max-height: 400px;
-}
-
-.showcase-has-image-2 {
-  background-image: url('../ship-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 400px;
-  max-height: 400px;
-}
-
-.showcase-has-image-3 {
-  background-image: url('../ship-3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 400px;
-  max-height: 400px;
-}
-
-/*.contact-has-bg-image {
-  background-image: url('../hero.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}*/
+  padding: 1rem 1.5rem 2rem; }
